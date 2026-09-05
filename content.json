@@ -33,6 +33,11 @@
           "title": "Terminal Commands",
           "description": "A comprehensive guide to essential terminal commands.",
           "markdown": "docs/Mac/mac-terminal.md"
+        },
+        {
+          "title": "Mac Defaults",
+          "description": "Some useful macOS defaults commands to customize your Mac experience.",
+          "markdown": "docs/Mac/mac-defaults.md"
         }
       ]
     },
