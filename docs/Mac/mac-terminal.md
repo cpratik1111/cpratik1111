@@ -22,3 +22,29 @@ The command reports details such as:
 Run the command in **Terminal**, then look for the `Cycle Count` and `Condition` fields in the output.
 
 Gives you detailed information about your MacBook’s battery status, including health, charge level, and cycle count.
+
+
+
+## Measure Folder Sizes Like a Pro
+
+Use `du` to display the size of each item in the current folder:
+
+```bash
+du -sh *
+```
+
+## Find Large Files
+
+Use `find` to search for files larger than 1 GB:
+
+```bash
+sudo find / -type f -size +1G 2>/dev/null
+```
+
+
+
+
+
+
+
+
