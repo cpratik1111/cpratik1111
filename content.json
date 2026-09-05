@@ -24,6 +24,20 @@
       ]
     },
     {
+      "id": "mac_terminal",
+      "title": "Mac Terminal",
+      "icon": "computer",
+      "description": "Will have all the mac terminal tips and tricks, and some useful commands.",
+      "articles": [
+        {
+          "title": "Terminal Commands",
+          "description": "A comprehensive guide to essential terminal commands.",
+          "markdown": "docs/Mac/mac-terminal.md"
+        }
+      ]
+    },
+
+    {
       "id": "mac",
       "title": "Mac",
       "icon": "computer",
