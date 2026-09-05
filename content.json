@@ -1,0 +1,86 @@
+{
+  "home": {
+    "title": "Welcome to My Hub",
+    "description": "Your curated destination for top resources across all your devices."
+  },
+  "sections": [
+    {
+      "id": "android",
+      "title": "Android",
+      "icon": "android",
+      "description": "Get the most out of your Android device with these hand-picked tools and articles.",
+      "markdown": "docs/Android/README.md",
+      "articles": [
+        {
+          "title": "Nova Launcher",
+          "description": "Highly customizable, performance driven, home screen.",
+          "markdown": "docs/Android/nova-launcher.md"
+        },
+        {
+          "title": "Tasker",
+          "description": "Total automation for Android.",
+          "markdown": "docs/Android/tasker.md"
+        }
+      ]
+    },
+    {
+      "id": "mac",
+      "title": "Mac",
+      "icon": "computer",
+      "description": "Essential apps and workflows for macOS power users.",
+      "articles": [
+        {
+          "title": "Raycast",
+          "description": "A blazingly fast, totally extendable launcher.",
+          "url": "https://www.raycast.com/"
+        },
+        {
+          "title": "Rectangle",
+          "description": "Move and resize windows in macOS using keyboard shortcuts.",
+          "url": "https://rectangleapp.com/"
+        }
+      ]
+    },
+    {
+      "id": "iphone",
+      "title": "iPhone",
+      "icon": "phone_iphone",
+      "description": "Enhance your iOS experience with these great finds.",
+      "articles": [
+        {
+          "title": "Shortcuts",
+          "description": "Automate your daily routines with Apple Shortcuts.",
+          "url": "https://support.apple.com/guide/shortcuts/"
+        },
+        {
+          "title": "Things 3",
+          "description": "The award-winning personal task manager.",
+          "url": "https://culturedcode.com/things/"
+        }
+      ]
+    },
+    {
+      "id": "useful-websites",
+      "title": "Useful Websites",
+      "icon": "language",
+      "description": "A curated list of websites that are actually useful.",
+      "articles": [
+        {
+          "title": "12ft Ladder",
+          "description": "Show me a 10ft paywall, I'll show you a 12ft ladder.",
+          "url": "https://12ft.io/"
+        },
+        {
+          "title": "Photopea",
+          "description": "Free online photo editor supporting PSD, XCF, Sketch, and more.",
+          "url": "https://www.photopea.com/"
+        },
+        {
+          "title": "Excalidraw",
+          "description": "Virtual whiteboard for sketching hand-drawn like diagrams.",
+          "url": "https://excalidraw.com/"
+        }
+      ]
+    }
+  ]
+}
