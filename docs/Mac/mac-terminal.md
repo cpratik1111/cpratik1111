@@ -1,5 +1,6 @@
 # Mac Terminal Commands
 
+## Get battery information
 Use the `system_profiler` command to view detailed information about your MacBook battery.
 
 ```bash
