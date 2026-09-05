@@ -3,6 +3,28 @@ document.addEventListener('DOMContentLoaded', () => {
     const sections = document.querySelectorAll('.content-section');
     const menuToggle = document.getElementById('menu-toggle');
     const sidebar = document.getElementById('sidebar');
+    const themeToggle = document.getElementById('theme-toggle');
+
+    function setTheme(theme) {
+        const isLightTheme = theme === 'light';
+        document.documentElement.dataset.theme = isLightTheme ? 'light' : 'dark';
+
+        if (themeToggle) {
+            themeToggle.setAttribute('aria-label', isLightTheme ? 'Switch to dark theme' : 'Switch to light theme');
+            themeToggle.querySelector('.material-symbols-outlined').textContent = isLightTheme ? 'dark_mode' : 'light_mode';
+        }
+    }
+
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    setTheme(savedTheme);
+
+    if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+            const nextTheme = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+            localStorage.setItem('theme', nextTheme);
+            setTheme(nextTheme);
+        });
+    }
 
     // Function to handle section switching
     function switchSection(targetId) {
